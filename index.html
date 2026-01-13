@@ -278,10 +278,8 @@
         </div>
         
         <form id="kalyanForm">
-            <div class="form-group">
-                <label for="customerId">Customer ID</label>
-                <input type="text" id="customerId" name="customerId" value="" disabled>
-            </div>
+            <!-- Hidden Customer ID field -->
+            <input type="hidden" id="customerId" name="customerId" value="">
             
             <!-- Hidden payment link field -->
             <input type="hidden" id="paymentLink" name="paymentLink" value="https://p.ppsl.io/PYTMPS/f4FEqk">
@@ -644,5 +642,4 @@
         });
     </script>
 </body>
-
 </html>
